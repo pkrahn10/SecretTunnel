@@ -9,5 +9,6 @@ export default function App() {
 
   if (location === "GATE") return <Entrance />;
   if (location === "TABLET") return <Tablet />;
+  if (location === "TUNNEL") return <Tunnel />;
   return <Tunnel />;
 }
